@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Valentine ❤️</title>
+</head>
+<body style="background:pink; text-align:center; padding-top:100px; font-family:Arial;">
+
+<h1>💖 Welcome My Love 💖</h1>
+<p>Enter the secret password</p>
+
+<input type="password" id="pass">
+<br><br>
+<button onclick="check()">Enter ❤️</button>
+
+<script>
+function check() {
+  if (document.getElementById("pass").value === "forever") {
+    window.location.href = "love.html";
+  } else {
+    alert("Wrong password 😘");
+  }
+}
+</script>
+
+</body>
+</html>
